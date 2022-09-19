@@ -4,7 +4,6 @@ document.getElementById('btn-confirm').addEventListener('click', function () {
     const months = document.getElementById('ccmonth').value;
     const year = document.getElementById('ccyear').value;
     const cvv = document.getElementById('cvv').value;
-    console.log(months, year, cvv)
     document.getElementById('card-num').innerText = numValue;
     document.getElementById('card-name').innerText = name;
     document.getElementById('card-months').innerText = months;
