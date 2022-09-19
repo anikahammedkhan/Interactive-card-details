@@ -1,0 +1,64 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.left-bg {
+    z-index: 1;
+    background-image: url(../images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    height: 900px;
+    padding: 0;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    width: 50%;
+}
+
+.card-front {
+    background-image: url(../images/bg-card-front.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 447px;
+    height: 247px;
+    position: relative;
+    z-index: 2;
+    bottom: -150px;
+    left: 100px;
+}
+
+.card-back {
+    background-image: url(../images/bg-card-back.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 447px;
+    height: 247px;
+    position: relative;
+    z-index: 2;
+    bottom: -150px;
+    left: 140px;
+}
+
+.card-number {
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+.cvv {
+    padding-top: 110px;
+    padding-left: 350px;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 165px;
+    border-radius: 15px;
+}
